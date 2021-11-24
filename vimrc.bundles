@@ -45,6 +45,14 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 
+
+Plug 'rking/ag.vim'
+Plug 'rust-lang/rust.vim'
+Plug 'croaky/vim-colors-github'
+Plug 'Chiel92/vim-autoformat'
+Plug 'leafgarland/typescript-vim'
+
+
 if g:has_async
   Plug 'dense-analysis/ale'
 endif

@@ -179,6 +179,12 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
+set ttymouse=sgr
+colorscheme github
+highlight NonText guibg=#060606
+highlight Folded  guibg=#0A0A0A guifg=#9090D0
+set nowrap
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
