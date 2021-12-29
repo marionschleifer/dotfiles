@@ -1,0 +1,10 @@
+windows:
+  - name: racemanager
+    root: ~/p/sam-events
+    layout: even-vertical
+    panes:
+      - cd frontend && code . && yarn tsc-watch
+      - cd functions && code . && yarn tsc-watch
+      - cd frontend && yarn start
+      - cd functions && yarn start
+      - code . && gst
