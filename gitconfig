@@ -45,8 +45,9 @@
 [rerere]
 	enabled = true
 [user]
-	name = Lukas Elmer
-	email = lukas.elmer@gmail.com
+	name = Marion Schleifer
+	email = marion.schleifer@gmail.com
+	signingkey = 73E070A886A547BD
 [tag]
 	sort = version:refname
 [filter "lfs"]
