@@ -115,7 +115,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
-plugins=(genpass asdf ansible brew emoji git-auto-fetch gnu-utils history git git-flow npm macos screen dircycle cp git-extras python autojump zsh-autosuggestions zsh-syntax-highlighting kubectl aws universalarchive extract yarn)
+plugins=(hasura genpass asdf ansible brew emoji git-auto-fetch gnu-utils history git git-flow npm macos screen dircycle cp git-extras python autojump zsh-autosuggestions zsh-syntax-highlighting kubectl aws universalarchive extract yarn)
 # measure time: echo "init" && { time (
 source $ZSH/oh-my-zsh.sh
 complete -F __start_kubectl k
